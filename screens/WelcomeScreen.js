@@ -118,7 +118,7 @@ export default class WelcomeScreen extends Component {
           />
           <TextInput
             style={styles.formTextInput}
-            placeholder ={"Username"}
+            placeholder ={"Email-Address"}
             keyboardType ={'email-address'}
             onChangeText={(text)=>{
               this.setState({
@@ -183,7 +183,7 @@ export default class WelcomeScreen extends Component {
           <Text style={{color:'#ff8a65'}}> A Trading Method </Text>
         </View>
         <View style={styles.buttonContainer}>
-          <Text style={{color:'#ff5722', fontSize:18, fontWeight:'bold',marginLeft:55}}>USERNAME</Text>
+          <Text style={{color:'#ff5722', fontSize:18, fontWeight:'bold',marginLeft:55}}>EMAIL</Text>
           <View style={{alignItems:'center'}}>
             <TextInput
             style={styles.loginBox}
