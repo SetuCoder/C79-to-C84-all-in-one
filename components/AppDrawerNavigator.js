@@ -16,7 +16,7 @@ export const AppDrawerNavigator = createDrawerNavigator({
   Notifications :{
     screen : NotificationScreen
   },
-    Setting : {
+    Settings : {
       screen : SettingScreen
     }
 },
